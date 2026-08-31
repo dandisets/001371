@@ -53,8 +53,8 @@ assetsSummary:
   - ElectrodeGroup
 citation: Prince, Stephanie; Cushing, Danielle Sarah; Yassine, Teema; Katragadda,
   Navya; Roberts, Tyler; Singer, Annabelle (2026) New information triggers prospective
-  codes to adapt for flexible navigation (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001371/draft
+  codes to adapt for flexible navigation (Version 0.260831.0201) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001371/0.260831.0201
 contributor:
 - affiliation: []
   email: stephprince16@gmail.com
@@ -135,6 +135,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-03-31T07:07:54.480563+00:00'
+datePublished: '2026-08-31T02:01:23.125375+00:00'
 description: This dataset includes the electrophysiological and behavioral data from
   hippocampal CA1 and medial prefrontal cortex in mice performing a virtual reality
   spatial navigation task. Data are described in Prince et al., 2025, “New information
@@ -151,8 +152,9 @@ description: This dataset includes the electrophysiological and behavioral data 
   in memory to the opposite choice. After several phases of behavioral training, electrophysiological
   data was recorded from hippocampal CA1 and medial prefrontal cortex (mPFC) during
   the task.
+doi: 10.48324/dandi.001371/0.260831.0201
 ethicsApproval: []
-id: DANDI:001371/draft
+id: DANDI:001371/0.260831.0201
 identifier: DANDI:001371
 keywords:
 - hippocampus
@@ -162,8 +164,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001371/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001371/0.260831.0201/assets.yaml
 name: New information triggers prospective codes to adapt for flexible navigation
+publishedBy:
+  endDate: '2026-08-31T02:01:23.125375+00:00'
+  id: urn:uuid:36b9d991-1ec2-48cc-8326-46bdaf49df61
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-31T02:01:23.125375+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:78906860-88b4-4981-a8b5-a4bd071a30ad
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: ''
   name: 'singer-lab-to-nwb: code that converted this data'
@@ -191,6 +205,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001371/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001371/0.260831.0201
+version: 0.260831.0201
 wasGeneratedBy: []
